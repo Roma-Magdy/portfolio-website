@@ -3,55 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roma Magdy - Machine Learning Portfolio</title>
+    <title>My Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f8f9fa; color: #333; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
-        h1, h2 { color: #007bff; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            background: #ff7eb3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: #ff4e91;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 <body>
+    <header>My Portfolio</header>
     <div class="container">
-        <h1>Roma Magdy</h1>
-        <p><strong>Email:</strong> <a href="mailto:romamagdy3642@gmail.com">romamagdy3642@gmail.com</a></p>
-        <p><strong>Phone:</strong> +20 1202892031</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/roma-magdy-31736229b">roma-magdy-31736229b</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/Roma-Magdy">Roma-Magdy</a></p>
-        
-        <h2>About Me</h2>
-        <p>Aspiring Machine Learning Engineer with expertise in supervised and unsupervised learning, dimensionality reduction, and model optimization. Passionate about solving real-world problems using data-driven approaches.</p>
-        
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Python, scikit-learn, TensorFlow, pandas, numpy</li>
-            <li>Supervised & Unsupervised Learning (SVM, Naïve Bayes, Random Forest, K-Means)</li>
-            <li>Model Optimization, Cross-validation, Regularization</li>
-            <li>Cloud & MLOps: AWS, MLflow, Hugging Face</li>
-            <li>IoT & Embedded Systems: PlatformIO, Flask API</li>
-        </ul>
-        
-        <h2>Projects</h2>
-        <h3><a href="https://colab.research.google.com/drive/1douOr-SMnmBM8-NtF4nvH4EOZun4m-Py?usp=sharing">Machine Learning Classification Project</a></h3>
-        <p>Developed and optimized SVM and Naïve Bayes classifiers with data visualization.</p>
-        
-        <h3><a href="https://github.com/Roma-Magdy/Fuzzy">Fuzzy Logic Diabetes Prediction</a></h3>
-        <p>Implemented a fuzzy logic system for diabetes risk assessment using Wang-Mendel algorithm.</p>
-        
-        <h3><a href="https://github.com/MarinaaMaged/IoT-Project">IoT-Based Fitness Tracker</a></h3>
-        <p>Developed an IoT-enabled fitness tracker with Flask backend and real-time monitoring.</p>
-        
-        <h2>Education</h2>
-        <p>Bachelor of Computing and Data Science, Alexandria University (2022 - 2026) - CGPA: 3.63</p>
-        
-        <h2>Certifications</h2>
-        <ul>
-            <li>Supervised Machine Learning - DeepLearning.AI & Stanford</li>
-            <li>Python for Data Science, AI & Development - IBM</li>
-            <li>Cloud Foundations - AWS Academy</li>
-            <li>Introduction to Databases - META</li>
-        </ul>
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is my personal website showcasing my work and projects.</p>
+        <button onclick="alert('Thanks for visiting!')">Click Me</button>
     </div>
 </body>
 </html>

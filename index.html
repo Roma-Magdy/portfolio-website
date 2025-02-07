@@ -45,7 +45,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        button {
+        .btn {
+            display: inline-block;
             background: #ff7eb3;
             color: white;
             padding: 10px 20px;
@@ -54,9 +55,11 @@
             font-size: 16px;
             cursor: pointer;
             transition: background 0.3s ease-in-out;
+            text-decoration: none;
+            margin: 5px;
         }
 
-        button:hover {
+        .btn:hover {
             background: #ff4e91;
         }
 
@@ -85,18 +88,16 @@
 
         <div class="section">
             <h2>Projects</h2>
-            <ul>
-                <li><a href="https://colab.research.google.com/drive/1douOr-SMnmBM8-NtF4nvH4EOZun4m-Py?usp=sharing" style="color: #ff7eb3;">Machine Learning Classification Project</a></li>
-                <li><a href="https://github.com/Roma-Magdy/Fuzzy" style="color: #ff7eb3;">Fuzzy Logic Rule-Based System for Diabetes Prediction</a></li>
-                <li><a href="https://github.com/MarinaaMaged/IoT-Project" style="color: #ff7eb3;">IoT-Based Fitness Tracker</a></li>
-            </ul>
+            <a href="https://colab.research.google.com/drive/1douOr-SMnmBM8-NtF4nvH4EOZun4m-Py?usp=sharing" class="btn" target="_blank">Machine Learning Classification Project</a>
+            <a href="https://github.com/Roma-Magdy/Fuzzy" class="btn" target="_blank">Fuzzy Logic Rule-Based System for Diabetes Prediction</a>
+            <a href="https://github.com/MarinaaMaged/IoT-Project" class="btn" target="_blank">IoT-Based Fitness Tracker</a>
         </div>
 
         <div class="section">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:romamagdy3642@gmail.com" style="color: #ff7eb3;">romamagdy3642@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/roma-magdy-31736229b" style="color: #ff7eb3;">linkedin.com/in/roma-magdy-31736229b</a></p>
-            <p>GitHub: <a href="https://github.com/Roma-Magdy" style="color: #ff7eb3;">github.com/Roma-Magdy</a></p>
+            <a href="mailto:romamagdy3642@gmail.com" class="btn">Email Me</a>
+            <a href="https://www.linkedin.com/in/roma-magdy-31736229b" class="btn" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Roma-Magdy" class="btn" target="_blank">GitHub</a>
         </div>
     </div>
 </body>
